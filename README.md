@@ -1,69 +1,48 @@
-# React + TypeScript + Vite
+# 🐾 PraPets - Banho & Tosa Boutique
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório oficial do site da **PraPets**, um projeto desenvolvido em React para uma boutique de banho e tosa. Este site foi criado para apresentar os serviços, produtos e informações de contato de forma clara e acessível aos clientes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Sobre o Projeto
 
-## Expanding the ESLint configuration
+O site da PraPets foi projetado com uma interface amigável e moderna, focando na experiência do usuário. Utilizamos o React para construir uma aplicação de página única (SPA), garantindo desempenho e fluidez na navegação.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🛠️ Tecnologias Utilizadas
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* **React:** Biblioteca JavaScript para construção da interface do usuário.
+* **HTML5 & CSS3:** Para a estrutura e estilização da página.
+* **JavaScript (ES6+):** Linguagem de programação para a lógica do projeto.
+* **Vite:** Ferramenta de build rápida para o desenvolvimento.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Como Executar o Projeto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Siga os passos abaixo para ter uma cópia local do projeto rodando em sua máquina.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Pré-requisitos
+Certifique-se de ter o [Node.js](https://nodejs.org/) e o `npm` (ou `yarn`) instalados em seu computador.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Instalação
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/_SEU-USUARIO_/_SEU-REPOSITORIO_.git](https://github.com/_SEU-USUARIO_/_SEU-REPOSITORIO_.git)
+    ```
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd _SEU-REPOSITORIO_
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+    ou, se usar `yarn`:
+    ```bash
+    yarn install
+    ```
+
+### Rodando a Aplicação
+Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
