@@ -2120,6 +2120,7 @@ h1 {
   width: 650px;
   margin-top: 116px;
   margin-bottom: 21px;
+  
 }
 
 .products-wrapper {
@@ -2335,6 +2336,7 @@ h1 {
   width: 60px;
   height: 60px;
   margin-right: 16px;
+  margin-top: auto;
 }
 
 .testimonial-main-heading {
@@ -2556,6 +2558,7 @@ h1 {
 .image-5 {
   
   display: block;
+  margin-top: 40px;
 }
 
 .image-wrapper-title {
