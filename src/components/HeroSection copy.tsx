@@ -46,7 +46,7 @@ const HeroSection: React.FC = () => {
       <div className="products-wrapper">
         <div className="card">
           <img
-            src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68755ac3e5e2f5b3e56a93f4_produtos.png"
+            src="./src/assets/images/68755ac3e5e2f5b3e56a93f4_produtos.png.png"
             loading="lazy"
             width="146"
             alt="Produtos"
@@ -59,7 +59,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="card">
           <img
-            src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68755abcabf2d064ed472b94_produtos_cuidados.png"
+            src="./src/assets/images/68755abcabf2d064ed472b94_produtos_cuidados.png.png"
             loading="lazy"
             width="146"
             alt="Produtos de cuidados"
@@ -72,7 +72,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="card">
           <img
-            src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68755ac1065fe5da4056e845_produtos_tosa.png"
+            src="./src/assets/images/68755ac1065fe5da4056e845_produtos_tosa.png.png"
             loading="lazy"
             width="146"
             alt="Produtos de tosa"

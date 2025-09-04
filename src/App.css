@@ -2099,12 +2099,13 @@ h1 {
 .hero-section {
   object-fit: scale-down;
   background-color: #d0d1ad;
-  background-image: url("https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/6877f2df72f6d10ee04b1705_background%20-%20Cao-gato.png");
+  background-image: url('./assets/images/Section.png');
   background-position: 100%;
   background-repeat: repeat;
   background-size: cover;
   padding: 40px;
   position: static;
+  
 }
 
 .nav-wrapper {
