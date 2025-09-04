@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
           <a href="#sobre" className="nav-link">
             Sobre
           </a>
-          <a href="https://pet-shop-site.webflow.io/" className="nav-link">
+          <a href="#" className="nav-link">
             Início
           </a>
           <a href="https://wa.me/5511968565284" className="nav-link">
