@@ -18,7 +18,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Serviço',
     title: 'Banho',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68755ac3e5e2f5b3e56a93f4_produtos.png',
+    imageSrc: './src/assets/images/68755ac3e5e2f5b3e56a93f4_produtos.png',
     imageAlt: 'Imagem de um cachorro sendo lavado.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $89,00' },
@@ -30,7 +30,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Produtos',
     title: 'Produtos Especiais',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68755abcabf2d064ed472b94_produtos_cuidados.png',
+    imageSrc: './src/assets/images/68755abcabf2d064ed472b94_produtos_cuidados.png',
     imageAlt: 'Imagem de produtos de cuidado para pets.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $120,00' },
@@ -42,7 +42,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Serviço',
     title: 'Tosa com máquina',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68755ac1065fe5da4056e845_produtos_tosa.png',
+    imageSrc: './src/assets/images//68755ac1065fe5da4056e845_produtos_tosa.png',
     imageAlt: 'Imagem de tosa com máquina.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $232,00' },
@@ -54,7 +54,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Serviço',
     title: 'Tosa com tesoura',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781feb74d44e8960cc5994_tosa-com-tesoura.png',
+    imageSrc: './src/assets/images/68781feb74d44e8960cc5994_tosa-com-tesoura.png',
     imageAlt: 'Imagem de tosa com tesoura.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $116,00' },
@@ -66,7 +66,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Serviço',
     title: 'Tosa com Trimming',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687821531222f606dd631a27_tosa-triming.png',
+    imageSrc: './src/assets/images/687821531222f606dd631a27_tosa-triming.png',
     imageAlt: 'Imagem de tosa com trimming.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $600,00' },
@@ -78,7 +78,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Serviço',
     title: 'Plano Básico',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687825cafbeec3975cb43d80_planos-pacotes-basicos.png',
+    imageSrc: './src/assets/images/687825cafbeec3975cb43d80_planos-pacotes-basicos.png',
     imageAlt: 'Imagem de plano básico.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $687,00' },
@@ -90,7 +90,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Serviço',
     title: 'Plano Premium',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687825ca900bab97939edbd2_planos-pacotes-PREMIUM.png',
+    imageSrc: './src/assets/images/687825ca900bab97939edbd2_planos-pacotes-PREMIUM.png',
     imageAlt: 'Imagem de plano premium.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $702,00' },
@@ -102,7 +102,7 @@ const priceData: PriceItem[] = [
   {
     tagline: 'Serviço',
     title: 'Plano Prapet´s',
-    imageSrc: 'https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687825d64f33f38c579f0d90_planos-pacotes-PRAPET%27S.png',
+    imageSrc: './src/assets/images/687825d64f33f38c579f0d90_planos-pacotes-PRAPET%27S.png',
     imageAlt: 'Imagem de plano Prapet´s.',
     prices: [
       { size: 'Pet Grande', value: 'a partir de $712,00' },
@@ -149,12 +149,12 @@ const PriceSection: React.FC = () => {
       <div className="container">
         <div className="w-layout-blockcontainer image-wrapper-title w-container">
           <img
-            src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa10627905763af9a1d_cao-cotovelo.png"
+            src="./src/assets/images/68781aa10627905763af9a1d_cao-cotovelo.png"
             loading="lazy"
             width="85"
             height="Auto"
             alt="Imagem de um cachorro com o cotovelo."
-            srcSet="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa10627905763af9a1d_cao-cotovelo-p-500.png 500w, https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa10627905763af9a1d_cao-cotovelo.png 637w"
+            srcSet="./src/assets/images/68781aa10627905763af9a1d_cao-cotovelo-p-500.png 500w, ./src/assets/images/68781aa10627905763af9a1d_cao-cotovelo.png 637w"
             sizes="85px"
             className="image-5"
           />
