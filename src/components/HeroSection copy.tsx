@@ -6,12 +6,12 @@ const HeroSection: React.FC = () => {
     <section className="hero-section">
       <div className="nav-wrapper">
         <img
-          src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687699f2e2dddd8e573ad822_logo2.png"
+          src="./src/assets/images/687699f2e2dddd8e573ad822_logo2.png"
           loading="lazy"
           width="122"
           sizes="122px"
           alt="PRAPET'S logo"
-          srcSet="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687699f2e2dddd8e573ad822_logo2-p-500.png 500w, https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687699f2e2dddd8e573ad822_logo2.png 781w"
+          srcSet="./src/assets/images/687699f2e2dddd8e573ad822_logo2-p-500.png 500w, ./src/assets/images/687699f2e2dddd8e573ad822_logo2.png 781w"
           className="logo"
         />
         <div className="nav-button-wrapper">

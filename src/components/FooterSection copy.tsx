@@ -6,12 +6,12 @@ const ContactsFooter: React.FC = () => {
       <section className="footer-light">
         <div className="w-layout-blockcontainer image-wrapper-title w-container">
           <img
-            src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa1419a1918b30a4aa0_cao-dando-tchau.png"
+            src="./src/assets/images/68781aa1419a1918b30a4aa0_cao-dando-tchau.png"
             loading="lazy"
             width="132"
             height="Auto"
             alt="Dog waving goodbye"
-            srcSet="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa1419a1918b30a4aa0_cao-dando-tchau-p-500.png 500w, https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa1419a1918b30a4aa0_cao-dando-tchau-p-800.png 800w, https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa1419a1918b30a4aa0_cao-dando-tchau.png 1028w"
+            srcSet="/68781aa1419a1918b30a4aa0_cao-dando-tchau-p-500.png 500w, ./src/assets/images/68781aa1419a1918b30a4aa0_cao-dando-tchau-p-800.png 800w, ./src/assets/images/68781aa1419a1918b30a4aa0_cao-dando-tchau.png 1028w"
             sizes="132px"
             className="image-5"
           />
@@ -21,12 +21,12 @@ const ContactsFooter: React.FC = () => {
           <div className="footer-wrapper-two">
             <a href="#" className="footer-brand w-inline-block">
               <img
-                src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687699f2e2dddd8e573ad822_logo2.png"
+                src="./src/assets/images/687699f2e2dddd8e573ad822_logo2.png"
                 loading="lazy"
                 width="390.5"
                 sizes="(max-width: 479px) 100vw, 390.5px"
                 alt="PraPet´s logo"
-                srcSet="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687699f2e2dddd8e573ad822_logo2-p-500.png 500w, https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687699f2e2dddd8e573ad822_logo2.png 781w"
+                srcSet="./src/assets/images/687699f2e2dddd8e573ad822_logo2.png 500w, ./src/assets/images/687699f2e2dddd8e573ad822_logo2.png 781w"
               />
             </a>
             <div className="footer-block-two">

@@ -7,12 +7,12 @@ const TestimonySection: React.FC = () => {
         <div className="container">
           <div className="w-container image-wrapper-title w-blockcontainer">
             <img
-              src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo.png"
+              src="./src/assets/images/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo.png"
               loading="lazy"
               width={130}
               sizes="130px"
               alt="Imagem de um cão olhando para baixo"
-              srcSet="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo-p-500.png 500w, https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo-p-800.png 800w, https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo.png 1028w"
+              srcSet="./src/assets/images/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo-p-500.png 500w, ./src/assets/images/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo-p-800.png 800w, ./src/assets/images/68781aa12e65e6c572d4f246_cao-olhando%20para%20baixo.png 1028w"
               className="image-5"
             />
           </div>
@@ -24,7 +24,7 @@ const TestimonySection: React.FC = () => {
               </p>
               <div className="testimonial-info-three">
                 <img
-                  src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/687552f7ae48ff72e17a1bec_89253.png"
+                  src="./src/assets/images/687552f7ae48ff72e17a1bec_89253.png"
                   loading="lazy"
                   alt="Foto da cliente Viviane e seu cão Tob"
                   className="testimonial-image"
@@ -45,7 +45,7 @@ const TestimonySection: React.FC = () => {
               </p>
               <div className="testimonial-info-three">
                 <img
-                  src="https://cdn.prod.website-files.com/687549ad611a6d4efd3b690a/68755ac1065fe5da4056e845_produtos_tosa.png"
+                  src="./src/assets/images/68755ac1065fe5da4056e845_produtos_tosa.png"
                   loading="lazy"
                   width="auto"
                   alt="Foto do cliente Cleiton e sua cadela Minie"
