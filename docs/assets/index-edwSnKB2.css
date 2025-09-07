@@ -2391,7 +2391,7 @@ h1 {
     background-color: var(--pink);
     color: var(--pink);
     -webkit-text-fill-color: inherit;
-    background-image: url(/assets/background-image-CXs5tLpQ.svg);
+    background-image: url(./background-image-CXs5tLpQ.svg);
     background-position: 0 0;
     background-size: auto;
     background-clip: border-box;
@@ -2507,7 +2507,7 @@ h1 {
 
 .testimonial-image {
     object-fit: cover;
-    background-image: url(/assets/687552dee60e599ca30941ba_Union-bE7-rMqS.jpg);
+    background-image: url(./687552dee60e599ca30941ba_Union-bE7-rMqS.jpg);
     background-position: 0 0;
     background-size: auto;
     border-radius: 50%;
@@ -2550,7 +2550,7 @@ h1 {
 }
 
 .plano-prapets-imagem.shadow-two {
-    background-image: url(/prapets-site-react-ts/assets/687821531222f606dd631a27_tosa-triming-BsssaZrd.png);
+    background-image: url(./687821531222f606dd631a27_tosa-triming-BsssaZrd.png);
     background-position: 0 0;
     background-size: auto;
     border-radius: 20px
@@ -2848,7 +2848,7 @@ h1 {
 
 @media screen and (max-width: 991px) {
     .hero-section {
-        background-image: url(/prapets-site-react-ts/assets/Section-BEtWxzB2.png);
+        background-image: url(./Section-BEtWxzB2.png);
         background-position: 100% 0;
         background-repeat: repeat-x;
         background-size: 100%
@@ -3010,7 +3010,7 @@ h1 {
 @media screen and (max-width: 767px) {
     .hero-section {
         -webkit-text-fill-color: inherit;
-        background-image: url(/prapets-site-react-ts/assets/Section-BEtWxzB2.png);
+        background-image: url(./Section-BEtWxzB2.png);
         background-position: 90% 0;
         background-repeat: repeat-x;
         background-size: 100%;
@@ -3175,7 +3175,7 @@ h1 {
 @media screen and (max-width: 479px) {
     .hero-section {
         -webkit-text-fill-color: inherit;
-        background-image: url(/prapets-site-react-ts/assets/Section-BEtWxzB2.png);
+        background-image: url(./Section-BEtWxzB2.png);
         background-position: 100% 0;
         background-repeat: repeat-x;
         background-size: 100%;
@@ -3393,7 +3393,7 @@ h1 {
     }
 
     .section-2 {
-        background-image: url(/prapets-site-react-ts/assets/6876db620e4ceb4198e9413a_background-D7XEoXS7.png);
+        background-image: url(./6876db620e4ceb4198e9413a_background-D7XEoXS7.png);
         background-position: 100% 100%;
         background-repeat: repeat;
         background-size: 100%
