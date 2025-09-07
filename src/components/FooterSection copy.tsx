@@ -11,7 +11,7 @@ const ContactsFooter: React.FC = () => {
             width="132"
             height="Auto"
             alt="Dog waving goodbye"
-            srcSet="/68781aa1419a1918b30a4aa0_cao-dando-tchau-p-500.png 500w, ./src/assets/images/68781aa1419a1918b30a4aa0_cao-dando-tchau-p-800.png 800w, ./src/assets/images/68781aa1419a1918b30a4aa0_cao-dando-tchau.png 1028w"
+            srcSet=" ./src/assets/images/68781aa1419a1918b30a4aa0_cao-dando-tchau-p-800.png 800w, ./src/assets/images/68781aa1419a1918b30a4aa0_cao-dando-tchau.png 1028w"
             sizes="132px"
             className="image-5"
           />
