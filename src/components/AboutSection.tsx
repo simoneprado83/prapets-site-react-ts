@@ -7,14 +7,14 @@ const AboutUsSection: React.FC = () => {
         <div className="w-layout-blockcontainer image-wrapper-title w-container">
           <img
             className="image-5"
-            src="./src/assets/images/687a91250eb014eadd1add46_Cachorro-logo.jpg"
+            src="./src/assets/images/687a91250eb014eadd1add46_Cachorro-logo.png"
             width="132"
             height="auto"
             alt="Logo de um cachorro"
             sizes="132px"
             id="sobre"
             loading="lazy"
-            srcSet="./src/assets/images/687a91250eb014eadd1add46_Cachorro-logo-p-500.jpg 500w, ./src/assets/images/687a91250eb014eadd1add46_Cachorro-logo.jpg 577w"
+            srcSet="./src/assets/images/687a91250eb014eadd1add46_Cachorro-logo-p-500.png 500w, ./src/assets/images/687a91250eb014eadd1add46_Cachorro-logo.png 577w"
           />
         </div>
         <h2 className="h2-final">Sobre nós</h2>
